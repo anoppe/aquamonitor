@@ -37,7 +37,7 @@ byte string_received=0;            //used to identify when we have received a st
 void setup() {
     // set up the LCD's number of columns and rows: 
      lcd.begin(16, 2);
-     Serial.begin(38400);         //enable the hardware serial port
+     Serial.begin(115200);         //enable the hardware serial port
      myserial.begin(38400);       //enable the software serial port
      
      //sensors.begin();
